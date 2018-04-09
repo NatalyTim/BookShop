@@ -32,6 +32,7 @@ begin
 end
 go
 
+/*
 --Truncate  table book.[order]
 exec Book.Order_FillByUnknown
  @QantityOrder = 10
@@ -39,3 +40,4 @@ exec Book.Order_FillByUnknown
 
 select * from book.[order]
 
+*/

@@ -45,12 +45,13 @@ begin
 end
 go
 
+/*
 exec Book.Order_FillWithoutUnknown
  @QantityOrder = 5
 ,@Date ='20170110'
 
 select*from book.[Order]
-
+*/
 
 --Truncate table book.[Order]
 
