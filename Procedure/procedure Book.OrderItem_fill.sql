@@ -93,7 +93,7 @@ go
 
 
 
-
+/*
 exec Book.OrderItem_fill
  @Order_Id =5
 ,@MaxCountItem =5
@@ -105,3 +105,4 @@ exec Book.OrderItem_fill
 --Truncate  table book.[OrderItem]
 
 select * from book.OrderItem
+*/
